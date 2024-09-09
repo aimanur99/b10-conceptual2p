@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* shared styles */
+/* navbar design starts here */
+.nav-container {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.137);
+}
+
+.nav-main {
+    width: 90%;
+    margin: 0 auto;
+    height: 130px;
+    /* outline: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px 0; */
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+
+.nav-right {
+    /* font-size: 20px; */
+    display: flex;
+    align-items: center;
+}
+
+.nav-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    margin-right: 32px;
+}
+
+.n-b-follow {
+    height: 56px;
+    background-color: #5a595c7a;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin-right: 0px;
+}
+
+#ytb {
+    /* width: 34px;
+    height: 24px; */
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+/* header style start here */
+.header {
+    background-image: url(../resources/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+
+.h-main {
+    /* border: 2px solid red; */
+    width: 90%;
+    margin: 0 auto;
+    /* height: 700px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.h-left {
+    /* border: 2px solid blue; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    margin-left: 240px;
+}
+
+.goat {
+    font-size: 55px;
+    background-image: linear-gradient(#F948B2, #8758F1);
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.301);
+}
+.g-overlay{
+    position: absolute;
+    top: 18%;
+    text-shadow: none;
+}
+
+.h-right {
+    width: 50%;
+    /* margin-right: 230px; */
+    /* border: 2px solid green; */
+}
+.h-right img{
+    width: 100%;
+}
+.btn-1, .btn-2{
+    padding: 15px 20px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.btn-1{
+    background-color: #FF42A5;
+    margin-right: 15px;
+}
+.btn-2{
+    background-color: 
+    #4EC5F7;
+}
+.txt{
+    margin-top: 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+/* main styles start here */
